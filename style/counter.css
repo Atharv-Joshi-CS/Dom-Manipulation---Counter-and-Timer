@@ -1,0 +1,36 @@
+.counterContainer {
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counterTitle {
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.counterValue {
+    font-size: 150px;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(123, 122, 122);
+}
+
+.incButton, .decButton {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    background-color :thistle;
+}
+
+.counterButtonContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}

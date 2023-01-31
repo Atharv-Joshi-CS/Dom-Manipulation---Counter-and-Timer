@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.homeContainer {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.optionsDiv{
+    display: flex;
+    flex-direction : row;
+}
+
+.timerRadioContainer{
+    margin: 10px 0px;
+}
+
+.countRadioContainer {
+    margin: 10px 30px;
+}
+
+.timerLabel, .countLabel{
+    margin: 0 7px;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input, label {
+    cursor: pointer;
+}
